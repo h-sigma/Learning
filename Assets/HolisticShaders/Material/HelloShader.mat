@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HelloShader
+  m_Shader: {fileID: 4800000, guid: 05dbd25c913d5c3ee84550714b6e604f, type: 3}
+  m_ShaderKeywords: _NORMALMAP _SHOWDECAL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: ae8b524491729a8e89a47294c5ad1f11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: ae8b524491729a8e89a47294c5ad1f11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorTex:
+        m_Texture: {fileID: 2800000, guid: 9bf7d9810233d113cb4acd59fa9c1527, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 2800000, guid: 7211914fcc96958318cd0fbb2200c662, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTex:
+        m_Texture: {fileID: 2800000, guid: 9bf7d9810233d113cb4acd59fa9c1527, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9bf7d9810233d113cb4acd59fa9c1527, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: b4eca87eee06ba778bfe1a468525476c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: a6f70dc042d62f1eab87b898dae501d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessTex:
+        m_Texture: {fileID: 2800000, guid: b4eca87eee06ba778bfe1a468525476c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myBump:
+        m_Texture: {fileID: 2800000, guid: 853cdddac27107427bfb74c97424788b, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _myColor:
+        m_Texture: {fileID: 2800000, guid: 9bf7d9810233d113cb4acd59fa9c1527, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myCube:
+        m_Texture: {fileID: 8900000, guid: fdd3ada9db664508b9c533e76eaaf489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDiffuse:
+        m_Texture: {fileID: 2800000, guid: 9bd5237aa25bd84e6b3961c027a97389, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _myEmission:
+        m_Texture: {fileID: 2800000, guid: be012c180c7be995b87011927ffa1f5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionColor: 0.46
+    - _Extrude: 0.05
+    - _Gloss: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 1
+    - _Mode: 0
+    - _MySliderValue: 10
+    - _OcclusionStrength: 1
+    - _Outline: 0.003
+    - _Parallax: 0.02
+    - _RimPower: 5.92
+    - _SComp: 3
+    - _SOp: 0
+    - _SRef: 2
+    - _ScaleUVX: 1
+    - _ScaleUVY: 1
+    - _ShowDecal: 1
+    - _Slider: 1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _Spec: 0.16
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _myBrightness: 1
+    - _mySlider: 1
+    - _mySliderX: 3.52
+    - _mySliderY: 0.82
+    - _mySliderZ: 0.42
+    - _myX: 1
+    - _myY: 1
+    - _myZ: 1
+    - _rimStrength: 5.9
+    m_Colors:
+    - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0.9254902, b: 0.16615361, a: 1}
+    - _RimColor: {r: 0.15022671, g: 0.1295835, b: 0.8584906, a: 1}
+    - _SpecColor: {r: 1, g: 0, b: 0, a: 1}
+    - _myColor: {r: 1, g: 0, b: 0, a: 1}
+    - _myEmission: {r: 0, g: 0, b: 0, a: 1}
+    - _myRim: {r: 0, g: 0.5, b: 0.5, a: 0}
+    - _rimColor: {r: 0, g: 0.8113208, b: 0.8113208, a: 0}
+    - _specColor: {r: 0, g: 0.5, b: 0.5, a: 0}
