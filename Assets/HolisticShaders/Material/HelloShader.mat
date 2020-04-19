@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: 05dbd25c913d5c3ee84550714b6e604f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1dcda85582cf7964086ee441779bcbe4, type: 3}
   m_ShaderKeywords: _NORMALMAP _SHOWDECAL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -146,13 +146,15 @@ Material:
     - _rimStrength: 5.9
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AwayColor: {r: 0.9, g: 0.09999994, b: 0.09999994, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0.9254902, b: 0.16615361, a: 1}
     - _RimColor: {r: 0.15022671, g: 0.1295835, b: 0.8584906, a: 1}
     - _SpecColor: {r: 1, g: 0, b: 0, a: 1}
+    - _TowardColor: {r: 0.09999997, g: 0.09999997, b: 0.9, a: 1}
     - _myColor: {r: 1, g: 0, b: 0, a: 1}
-    - _myEmission: {r: 0, g: 0, b: 0, a: 1}
+    - _myEmission: {r: 1, g: 0, b: 0, a: 1}
     - _myRim: {r: 0, g: 0.5, b: 0.5, a: 0}
     - _rimColor: {r: 0, g: 0.8113208, b: 0.8113208, a: 0}
     - _specColor: {r: 0, g: 0.5, b: 0.5, a: 0}

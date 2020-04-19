@@ -4,7 +4,7 @@
     {
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
         _OutlineColor ("Color", Color) = (1,1,1,1)
-        _Outline ("Outline Width", Range(0.0, 0.2)) = 0.0
+        _Outline ("Outline Width", Range(0.0, 1)) = 0.1
     }
     SubShader
     {
@@ -23,13 +23,12 @@
         void vert(inout appdata_full v)
         {
             v.vertex.xyz += v.normal * _Outline;
+            v.vertex.xyz += v.tangent * _Outline;
         }
-        
-        sampler2D _MainTex;
         
         void surf (Input IN, inout SurfaceOutput o)
         {
-            o.Emission = _OutlineColor.rgb;
+            o.Albedo = _OutlineColor.rgb;
         }
         
         ENDCG
